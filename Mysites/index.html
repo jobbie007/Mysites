@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 
 <style type="text/css">
+
 h1, h2{
         font-size: 30px;
-        text-align: center;
+        text-align: center!important;
         
-        
+        overflow: auto;
         margin-block-start: 20px;
         
 
@@ -13,37 +14,58 @@ padding-top:10px;
  font-family: arial;
  margin: auto;
 }
+header{
+  display: inline-block;
+  margin-right: 50px;
+}
+div{
+  display: inline-block;
+  margin-left: 30px;
+  position: relative;
+}
 a {
   
    margin: center;  
-   line-height: 135%; 
+   line-height: 140%; 
 }
 
 a:hover{
-      background-color: ghostwhite;
+      background-color: rgba(250, 250, 250, 0.605);
 }
 </style>
 <head>
-    <h1 style="color:beige;">Job's favorite websites</h1>
-<link  rel="icon "style="width: 10px; height: 10px; border-radius:50%;"  href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8NDw8NDQ0QDQ0NEBINDQ0NEA8NDQ0NFRIWFhURFRUYHSggGBolGxUVITEhMSkrLi46Fx8zODMtNygtOisBCgoKDQ0NFQ0NFTcZFRkrKy03NysrKy03LS03KystLSstNystNystLSsrKysrLSsrNy0rKysrKystLTcrKysrLf/AABEIAKgBLAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAHhABAAMAAwADAQAAAAAAAAAAADHh8AFB0REhUaH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOIgio0gAoAKIaQUoK7BRNJpEUTSukC1ZvtdICppNIKJpPf0ClSuzSBx4Jx52aQUtNJfYBZyl9iqippABAVAABEA5AFBFFABQ0gKgaQUo0ldgKmk0iKJzvtdIFiX2ukDQqaTSAqaTSBQV2aQOPBOPOzSCpZpL7FCzSl9gqLpTSACAqAACIAHIKIAoCiggKAClIoAACoAWqWukQ0GhNKgaD1N/VA4E48AOFTjfYKFhYBYlgAAIqAAAIqIByHIAAKAAAopoEBdBXQceAug0IoGg0ABfS/O+EsA0LoQENC6EBT53waAA0GgANCX0ALoTQFgAgKioAAgIAByICgAogooAKgAoAAAKIAX+KlqAIoAigCKCcKgAAAAAioAAAioAAgIqAoAACigiCgKKgAogCiKBYl9rpAVABU0gAaTSAJpXSAIAqAACIKiooAIAIAAKAAoAgACiAKIKKACiAKIAoigCAKIoAgAAACAqKiCoAAACAKAgKACiAigAAAogCiKoAACKAIqAAoCKAIqAIAogCoAAACAACCqgAogCiKAqAKICKAAAAqACoAogCiAKIAKgAAAAACAqAKAAIAAAAACoAogCgAAAogIoigCKAAAAAAAIAogAAKqCAogCoAAAAAAAAAAAKAAAAAIKAqKAIoCAACKAgAoAAAAgAAAAAAAIAP/2Q==" >
+    <h1  style="color:beige;">Job's favorite websites</h1>
+<link img {
+  border-radius: 50%;
+} rel="icon "style="width: 10px; height: 10px; border-radius:50%;"  href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8NDw8NDQ0QDQ0NEBINDQ0NEA8NDQ0NFRIWFhURFRUYHSggGBolGxUVITEhMSkrLi46Fx8zODMtNygtOisBCgoKDQ0NFQ0NFTcZFRkrKy03NysrKy03LS03KystLSstNystNystLSsrKysrLSsrNy0rKysrKystLTcrKysrLf/AABEIAKgBLAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAHhABAAMAAwADAQAAAAAAAAAAADHh8AFB0REhUaH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOIgio0gAoAKIaQUoK7BRNJpEUTSukC1ZvtdICppNIKJpPf0ClSuzSBx4Jx52aQUtNJfYBZyl9iqippABAVAABEA5AFBFFABQ0gKgaQUo0ldgKmk0iKJzvtdIFiX2ukDQqaTSAqaTSBQV2aQOPBOPOzSCpZpL7FCzSl9gqLpTSACAqAACIAHIKIAoCiggKAClIoAACoAWqWukQ0GhNKgaD1N/VA4E48AOFTjfYKFhYBYlgAAIqAAAIqIByHIAAKAAAopoEBdBXQceAug0IoGg0ABfS/O+EsA0LoQENC6EBT53waAA0GgANCX0ALoTQFgAgKioAAgIAByICgAogooAKgAoAAAKIAX+KlqAIoAigCKCcKgAAAAAioAAAioAAgIqAoAACigiCgKKgAogCiKBYl9rpAVABU0gAaTSAJpXSAIAqAACIKiooAIAIAAKAAoAgACiAKIKKACiAKIAoigCAKIoAgAAACAqKiCoAAACAKAgKACiAigAAAogCiKoAACKAIqAAoCKAIqAIAogCoAAACAACCqgAogCiKAqAKICKAAAAqACoAogCiAKIAKgAAAAACAqAKAAIAAAAACoAogCgAAAogIoigCKAAAAAAAIAogAAKqCAogCoAAAAAAAAAAAKAAAAAIKAqKAIoCAACKAgAoAAAAgAAAAAAAIAP/2Q==" >
 </head>
 <body style= " background-color:black">
 <h2>
-<a  style=" color:#FF0111" href="https://lichess.org/paste" title="free analysis"> Lichess import</a><br>
+  <header class="block">
+  <a  style=" color:#FF0111" href="https://lichess.org/paste" title="free analysis"> Lichess import</a><br>
 <a  href="https://9anime.to/">9anime</a><br>                                    
 <a style=" color:#00D907" href="https://www.digicampus.co.za/platform.html" >digicampus</a><br>                 
 <a style=" color:#0FE0DD" href="https://www.photopea.com/"  title="photoshop in a web">Photopea</a><br> 
 <a   href="https://ehome.dha.gov.za/eHomeAffairsV2/SGAccount/Logon">ID</a><br>
 <a style=" color:cyan" href="https://www.bincodes.com/bin-creditcard-generator/" title="Generate from bin">Bin codes</a><br>
-<a style=" color:#ffffff" href="https://ccgen.tech/"  title="Bin generator">Bin generator CCGen</a><br>
+<a style=" color:#e0c2c2" href="https://ccgen.tech/"  title="Bin generator">Bin generator CCGen</a><br>
+<a style=" color:#ffa32b" href="https://play.typeracer.com/"  title="Typeracer">Typeracer</a><br>
+<a style=" color:#30007e" href="https://openknowledgemaps.org/"  title="creating mind maps">Mind maps</a><br>
+<a style=" color:rgb(238, 125, 50);" href="https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/NSCPastExaminationpapers.aspx" title="past papers">NSC Past Papers</a><br>
+
+</header>
+<div class="block">
+  <a style=" color:#f31111" href="https://www.youtube.com/"  title="Youtube">Youtube</a><br>  
 <a style=" color:#0FE5D9" href="https://namso.ccgen.co/"  title="namso gen">Namso.ccgen</a><br>
 <a style=" color:red" href="https://www.mathway.com/Algebra" title="Maths a chegg service">Mathway</a><br>
 <a style=" color:#0FE111" href="https://www.skillshare.com/home" title="skillshare home">Skillshare</a><br>
-<a style=" color:#0FE111" href="https://www.w3schools.com/" title="w3schools">W3schools</a><br>
+<a style=" color:#3bf53e" href="https://www.w3schools.com/" title="w3schools">W3schools</a><br>
 <a style=" color:orange;" href="https://quickmath.com/" title="math solvers">Quickmath</a><br>
-<a style=" color:#616060;" href="https://discord.com/channels/@me" title="Discord">Discord</a><br>
+<a style=" color:#535151;" href="https://discord.com/channels/@me" title="Discord">Discord</a><br>
 <a style=" color: green; "href="https://web.whatsapp.com/"title="whatappweb">Whatsapp</a><br>
-<p>  <span id="link"></span>  </p>
+<a style=" color: rgb(20, 230, 20); "href="https://www.chess.com/home"title="chess.com">Chess</a><br>
+<a style=" color: rgb(236, 236, 236); "href="https://www.hphs.co.za/High/MathematicsPapersFET"title="Past papers">Maths Past papers</a><br>
+</div>
 </h2>
 <script src="Javascript.js"></script>
 </body>
